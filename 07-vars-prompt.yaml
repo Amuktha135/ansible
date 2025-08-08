@@ -5,6 +5,7 @@
     prompt: Enter the course name
   - name: TRAINER
     prompt: Enter the trainer name
+    private: false #not confidential
   - name: DURATION
     prompt: Enter the duration time
   tasks:
