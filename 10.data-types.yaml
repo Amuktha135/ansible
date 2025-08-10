@@ -11,14 +11,14 @@
     - aws
     live: true
     tools: #map/dictionary
-    ci: jenkins
-    cm: ansible
-    cloud: aws
-    aws:
-    - IAM
-    - S3
+      ci: jenkins
+      cm: ansible
+      cloud: aws
+      aws:
+      - IAM
+      - S3
   tasks:
   - name: print course information
     ansible.builtin.debug:
-      msg: "Hi , i am learning {{ course }} and duration is {{ duration }} , topics are {{ topics }} includes tools are {{ tools }}"
+      msg: "Hi , i am learning {{ course }} and duration is {{ duration }} , topics are {{ topics }} includes tools {{ tools }}"
 
