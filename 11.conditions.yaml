@@ -5,7 +5,7 @@
   #   prompt: please enter a number
   #   private: false #not confidential
   vars:
-    my_number=139
+    my_number: 139
   tasks:
   - name: print this number if less than 10
     ansible.builtin.debug:
